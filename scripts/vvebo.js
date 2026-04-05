@@ -8,9 +8,9 @@ QuantumultX 修复 vvebo 用户主页的显示脚本
 [mitm]
 hostname = api.weibo.cn
 [rewrite_local]
-^https:\/\/api\.weibo\.cn\/2\/users\/show\? url script-request-header https://raw.githubusercontent.com/bin64/Scripts/main/QuantumultX/vvebo.js
-^https:\/\/api\.weibo\.cn\/2\/statuses\/user_timeline\? url script-request-header https://raw.githubusercontent.com/bin64/Scripts/main/QuantumultX/vvebo.js
-^https:\/\/api\.weibo\.cn\/2\/profile\/statuses\/tab\? url script-response-body https://raw.githubusercontent.com/bin64/Scripts/main/QuantumultX/vvebo.js
+^https:\/\/api\.weibo\.cn\/2\/users\/show\? url script-request-header https://raw.githubusercontent.com/qq6116886/QuantumultX/refs/heads/main/scripts/vvebo.js
+^https:\/\/api\.weibo\.cn\/2\/statuses\/user_timeline\? url script-request-header https://raw.githubusercontent.com/qq6116886/QuantumultX/refs/heads/main/scripts/vvebo.js
+^https:\/\/api\.weibo\.cn\/2\/profile\/statuses\/tab\? url script-response-body https://raw.githubusercontent.com/qq6116886/QuantumultX/refs/heads/main/scripts/vvebo.js
 
 *************************
 
